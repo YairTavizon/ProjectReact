@@ -13,7 +13,7 @@ app.use(
     })
 )
 
-const mongoURI = 'mongodb://YairTav2:hola1234@ds119598.mlab.com:19598/people'
+const mongoURI = 'tu cadena de conexion'
 
 mongoose
     .connect(mongoURI, { useNewUrlParser: true })
